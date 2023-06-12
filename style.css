@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+
+}
+.form{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    
+}
+.input::placeholder{
+    color: aliceblue;
+}
+.btn{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+.score{
+    color:black;
+    text-align: right;
+}
